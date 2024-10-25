@@ -1,0 +1,490 @@
+TRON System Voxel Biome Technical Specifications
+
+1. Spawn Area: The Portal Sanctuary
+Terrain Characteristics
+
+Primary palette: Deep blacks with bright cyan circuit patterns
+Base terrain composed of smooth, hexagonal voxel platforms
+Height gradient from sea level to portal platform: 120-180 blocks
+Terrain pattern: Concentric hexagonal rings ascending spirally
+
+Architectural Elements
+
+Portal Structure:
+
+Height: 60-80 blocks
+Shape: Truncated pyramid with glowing edges
+Materials: Black base blocks with white/cyan luminescent trim
+Platform radius: 30 blocks minimum
+
+
+Landing Strip:
+
+Length: 100-150 blocks
+Width: 10 blocks
+Pattern: Alternating light strips every 5 blocks
+
+
+Stairway:
+
+Width: 8 blocks
+Step height: 1 block
+Step depth: 2 blocks
+Landing platforms every 20 steps
+
+
+
+Lighting System
+
+Ground-level circuit patterns emitting cyan light (light level 15)
+Portal beam: Central column of white light (light level 15)
+Stair edges: Subtle blue glow (light level 8)
+Ambient light level: 4
+
+2. Outlands Wasteland
+Terrain Characteristics
+
+Primary palette: Dark gray to black with minimal lighting
+Terrain generation parameters:
+
+Peak height: 150-200 blocks
+Ravine depth: 60-120 blocks
+Noise scale: 0.8 (creates jagged terrain)
+
+
+Rock formations:
+
+Angular, crystalline structures
+45-degree angles predominant
+Size range: 10-50 blocks
+
+
+
+Environmental Features
+
+Sparse lighting through cracks (light level 3)
+Occasional energy crystal clusters
+Floating rock formations supported by light beams
+Weather effects: Digital snow particles
+
+Building Style
+
+Hidden bases built into cliff faces
+Entrance dimensions: 5x5 blocks minimum
+Camouflaged doors using native rock textures
+Internal rooms following hexagonal patterns
+
+3. Sea of Simulation
+Water Characteristics
+
+Base color: Deep blue-black
+Surface effects: Animated grid pattern
+Depth range: 30-120 blocks
+Geometric bubble particles rising from depth
+
+Coastal Features
+
+Shore material: Luminescent blue-white blocks
+Transition zone: 10-15 blocks
+Digital reef structures at varying depths
+Energy current streams (particle effects)
+
+Environmental Effects
+
+Digital storms with lightning
+Floating data fragments (particle systems)
+Underwater light beams
+Surface reflection patterns
+
+4. Grid City Infrastructure
+Street Layout
+
+Grid pattern with 45° and 90° intersections
+Street width: 8-12 blocks
+Block size: 64x64 blocks
+Height zones: 4 tiers (0-255 blocks)
+
+Building Characteristics
+
+Base materials: Black with illuminated edges
+Window pattern: Vertical light lines
+Height range: 40-200 blocks
+Setback requirement: 2 blocks per 20 blocks of height
+
+Architectural Style
+
+Minimalist geometric forms
+Sharp angles (15°, 30°, 45°, 90°)
+Illuminated trim required on edges
+Internal lighting grid patterns
+
+Infrastructure Elements
+
+Light bridges: 4 blocks wide, translucent blue
+Transport tubes: 5x5 blocks, transparent
+Energy distribution nodes every 64 blocks
+Information towers: 20x20 base, tapering design
+
+Common Design Elements
+Light Circuit Patterns
+
+Primary circuit width: 1 block
+Secondary circuit width: 2 blocks
+Circuit intersections: 3x3 blocks
+Circuit colors:
+
+System: Cyan (#00FFFF)
+ISO: White (#FFFFFF)
+Portal: Gold (#FFD700)
+Basic: Blue (#0088FF)
+
+
+
+Material Properties
+
+Base blocks: Light absorption level 90%
+Circuit blocks: Light emission level 80%
+Transparent blocks: 40% opacity
+Reflective surfaces: 60% reflectivity
+
+Ambient Effects
+
+Particle density: 0.2 particles/block
+Light decay rate: -1 per block
+Ambient occlusion: Enabled
+Weather effects: Digital rain, storms
+
+Global Theme Variants
+
+Light Mode ("User World")
+
+Primary Colors:
+
+Base: White (#FFFFFF)
+Circuits: Light Blue (#87CEEB)
+Accents: Silver (#C0C0C0)
+Energy: Bright Blue (#00FFFF)
+
+
+Lighting Characteristics:
+
+Ambient light level: 12
+Circuit brightness: 15
+Shadow intensity: 20%
+Particle color: White with blue trails
+
+
+
+Dark Mode ("Grid World")
+
+Primary Colors:
+
+Base: Black (#000000)
+Circuits: Cyan (#00FFFF)
+Accents: Dark Blue (#003366)
+Energy: Orange (#FF6600)
+
+
+Lighting Characteristics:
+
+Ambient light level: 4
+Circuit brightness: 15
+Shadow intensity: 80%
+Particle color: Blue with cyan trails
+
+
+
+1. Spawn Area: The Portal Sanctuary
+Terrain Characteristics
+[Previous terrain specs remain the same]
+Structure Spawning Rules
+
+Portal Structure (Required):
+
+Spawn count: 1 per sanctuary
+Minimum distance from other structures: 200 blocks
+Must be at highest Y-level of terrain
+
+
+Arrival Platforms:
+
+Spawn count: 3-5
+Distance from portal: 50-100 blocks
+Must be connected by light bridges
+
+
+
+Theme-Specific Variants
+
+Light Mode:
+
+Portal beam: Pure white with gold particles
+Platform material: White quartz with light blue circuits
+Energy flows: Light blue to white gradient
+
+
+Dark Mode:
+
+Portal beam: Bright blue with cyan particles
+Platform material: Black obsidian with cyan circuits
+Energy flows: Cyan to blue gradient
+
+
+
+2. Outlands Wasteland
+[Previous terrain specs remain the same]
+Structure Spawning Rules
+
+Hidden Shelters:
+
+Spawn frequency: Every 500-1000 blocks
+Required clearance: 20x20x20 blocks
+Must be embedded in terrain
+Maximum of 3 per quadrant
+
+
+Resistance Bases (Large):
+
+Spawn frequency: Every 2000-3000 blocks
+Size: 50x50x30 blocks minimum
+Must be near ravines
+Contains unique loot tables
+
+
+Light Crawler Stations:
+
+Spawn frequency: Every 1000-1500 blocks
+Required flat area: 30x30 blocks
+Must be connected to hidden paths
+
+
+
+Theme-Specific Variants
+
+Light Mode:
+
+Terrain: Gray scale with white highlights
+Crystal formations: White with blue cores
+Weather: Light snow particles
+
+
+Dark Mode:
+
+Terrain: Dark gray to black
+Crystal formations: Black with cyan cores
+Weather: Digital rain particles
+
+
+
+3. Sea of Simulation
+[Previous water specs remain the same]
+Structure Spawning Rules
+
+Data Nexus Towers:
+
+Spawn frequency: Every 1000 blocks along coastline
+Height: 80-120 blocks
+Must be partially submerged
+Connected by underwater energy lines
+
+
+ISO Creation Pools:
+
+Spawn frequency: 5-8 per sea region
+Depth: 30-50 blocks
+Must be in deep water areas
+Surrounded by unique coral-like data structures
+
+
+Simulation Research Labs:
+
+Spawn frequency: 2-3 per sea region
+Size: 40x40x60 blocks
+Must be on islands or coastal areas
+Contains unique technology and lore
+
+
+
+Theme-Specific Variants
+
+Light Mode:
+
+Water: Crystal clear with white particles
+Structures: White marble with blue energy lines
+Effects: White foam and light blue waves
+
+
+Dark Mode:
+
+Water: Deep blue-black with cyan particles
+Structures: Black glass with cyan energy lines
+Effects: Blue foam and cyan waves
+
+
+
+4. Grid City Infrastructure
+[Previous layout specs remain the same]
+Structure Spawning Rules
+
+End of Line Club:
+
+Spawn count: 1 per city center
+Height: 200 blocks minimum
+Must be tallest building in 200 block radius
+Includes special social areas and viewpoints
+
+
+Game Arena Complex:
+
+Size: 200x200x100 blocks
+Location: City edge near Outlands
+Must include:
+
+Light Cycle Grid (100x100)
+Disc Arena (80x80)
+Gladiator Pits (50x50)
+Spectator Seating (capacity: 1000)
+Training Grounds (60x60)
+
+
+
+
+Recognition Towers:
+
+Spawn frequency: Every 300 blocks
+Height: 120-150 blocks
+Must have clear view of streets
+Contains security systems
+
+
+Flynn's Arcade:
+
+Spawn count: 1 per city
+Size: 30x20x15 blocks
+Must be near central plaza
+Contains portal to real world
+
+
+
+Theme-Specific Variants
+
+Light Mode:
+
+Buildings: White with blue trimming
+Roads: Light gray with white lines
+Signs: Blue holographic displays
+Interior: White walls with blue accents
+
+
+Dark Mode:
+
+Buildings: Black with cyan trimming
+Roads: Dark gray with cyan lines
+Signs: Cyan holographic displays
+Interior: Black walls with cyan accents
+
+
+
+5. Special Game Zones
+Game Arena Specifications
+
+Light Cycle Grid:
+
+Arena size: 100x100 blocks
+Wall height: 20 blocks
+Light trail height: 5 blocks
+Spawn points: 8 symmetrical positions
+
+
+Disc Arena:
+
+Platform size: 30x30 blocks
+Multiple levels: 5-7 platforms
+Height between levels: 10 blocks
+Transparent barriers
+
+
+Combat Training Grounds:
+
+Area size: 50x50 blocks
+Obstacle height: 1-5 blocks
+Dynamic floor patterns
+Practice target zones
+
+
+
+Theme-Specific Variants
+
+Light Mode:
+
+Arena walls: White energy barriers
+Light trails: Blue solid light
+Platform material: White with blue grid
+Effects: White sparks and blue explosions
+
+
+Dark Mode:
+
+Arena walls: Black energy barriers
+Light trails: Orange/cyan solid light
+Platform material: Black with cyan grid
+Effects: Blue sparks and cyan explosions
+
+
+
+Common Design Elements
+Light Circuit Patterns
+
+Circuit Hierarchy:
+
+Main power lines: 3 blocks wide
+Secondary circuits: 2 blocks wide
+Tertiary patterns: 1 block wide
+Junction nodes: 4x4 blocks
+
+
+
+Material Properties
+
+Light Mode Properties:
+
+Base reflectivity: 80%
+Circuit glow: Soft blue
+Glass opacity: 20%
+Surface smoothness: 90%
+
+
+Dark Mode Properties:
+
+Base reflectivity: 30%
+Circuit glow: Intense cyan
+Glass opacity: 40%
+Surface smoothness: 70%
+
+
+
+Environmental Effects
+
+Light Mode:
+
+Particles: White data streams
+Ambient sounds: High frequency hums
+Weather: Light digital rain
+Sky: Bright white with blue horizon
+
+
+Dark Mode:
+
+Particles: Blue/cyan data streams
+Ambient sounds: Low frequency hums
+Weather: Heavy digital rain
+Sky: Dark with cyan horizon
+
+
+
+Navigation Systems
+
+Waypoint markers at major intersections
+Distance indicators every 50 blocks
+Holographic maps at information terminals
+Energy flow direction indicators
