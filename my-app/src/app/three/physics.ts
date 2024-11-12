@@ -39,21 +39,31 @@ export class Physics {
 
   public update(dt: number, player: Player, world: World): void {
     this.accumulator += dt;
-    
+  
     while (this.accumulator >= this.stepSize) {
       // Apply gravity
-      player.velocity.y -= this.gravity * this.stepSize;
-      
-      // Apply player movement
+      if (!player.onGround) {
+        player.velocity.y -= this.gravity * this.stepSize;
+      } else {
+        player.velocity.y = 0; // Reset vertical velocity when on the ground
+      }
+  
+      // Apply player movement inputs (updates velocity)
       player.applyInputs(this.stepSize);
-      
+  
+      // Update player's position based on velocity
+      player.position.addScaledVector(player.velocity, this.stepSize);
+  
       // Detect and resolve collisions
       this.detectCollisions(player, world);
-      
+  
+      // Update camera position
+      player.updateCameraPosition();
+  
       this.accumulator -= this.stepSize;
     }
   }
-
+  
   private detectCollisions(player: Player, world: World): void {
     if (this.debugMode) {
       this.collisionHelpers.clear();
